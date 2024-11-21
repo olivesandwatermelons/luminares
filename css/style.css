@@ -489,27 +489,27 @@ section{
    color: var(--light-color);
 }
 
-.reviews .box-container .box .studentt{
+.reviews .box-container .box .student{
    margin-top: 2rem;
    display: flex;
    align-items: center;
    gap: 1.5rem;
 }
 
-.reviews .box-container .box .studentt img{
+.reviews .box-container .box .student img{
    height: 5rem;
    width: 5rem;
    object-fit: cover;
    border-radius: 50%;
 }
 
-.reviews .box-container .box .studentt h3{
+.reviews .box-container .box .student h3{
    font-size: 2rem;
    color: var(--black);
    margin-bottom: .3rem;
 }
 
-.reviews .box-container .box .studentt .stars{
+.reviews .box-container .box .student .stars{
    font-size: 1.5rem;
    color:var(--orange);
 }
@@ -1383,7 +1383,7 @@ section{
    text-decoration: none;
    color: #333;
  }
- 
+
  .toggle-btn.selected {
    /* Selected state style */
    background-color: #007bff;
