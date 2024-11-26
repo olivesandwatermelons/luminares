@@ -13,14 +13,70 @@
    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
+<header class="header">
+
+   <section class="flex">
+
+      <a href="index.html" class="logo">luminares</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/Mahesh.jpeg" class="image" alt="">
+         <h3 class="name">Mahesh</h3>
+         <p class="role">student</p>
+         <a href="profile.html" class="btn">view profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">login</a>
+            <a href="register.html" class="option-btn">register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/Mahesh.jpeg" class="image" alt="">
+      <h3 class="name">Mahesh</h3>
+      <p class="role">student</p>
+      <a href="profile.html" class="btn">view profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+      <a href="teacher_profile.html"><i class="fas fa-chalkboard-user"></i><span>mentor</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+   </nav>
+
+</div>
+
 <section class="courses">
 
     <h1 class="heading">our courses</h1>
- 
+
     <div class="box-container">
- 
+
        <div class="box">
           <div class="thumb">
              <img src="images/thumb-1.png" alt="">
@@ -29,7 +85,7 @@
           <h3 class="title">complete HTML </h3>
           <a href="https://blog.hubspot.com/website/html" class="inline-btn" target="_blank">view blog</a>
        </div>
- 
+
        <div class="box">
           <div class="thumb">
              <img src="images/thumb-2.png" alt="">
@@ -38,7 +94,7 @@
           <h3 class="title">complete CSS </h3>
           <a href="playlist.html" class="inline-btn">view blog</a>
        </div>
- 
+
        <div class="box">
           <div class="thumb">
              <img src="images/thumb-3.png" alt="">
@@ -47,7 +103,7 @@
           <h3 class="title">complete javascript </h3>
           <a href="playlist.html" class="inline-btn">view blog</a>
        </div>
- 
+
        <div class="box">
           <div class="thumb">
              <img src="images/thumb-4.png" alt="">
@@ -56,7 +112,7 @@
           <h3 class="title">complete Boostrap </h3>
           <a href="playlist.html" class="inline-btn">view blog</a>
        </div>
- 
+
     </div>
- 
+
  </section>
